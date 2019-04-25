@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberWords", "NumberWords\NumberWords.csproj", "{C5716C98-889A-4F11-BF1C-C66B3E1DB38A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberWordsTest", "NumberWordsTest\NumberWordsTest.csproj", "{0049BAB9-FFA6-491E-96D9-8E382351A9B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5716C98-889A-4F11-BF1C-C66B3E1DB38A}.Debug|x86.ActiveCfg = Debug|x86
+		{C5716C98-889A-4F11-BF1C-C66B3E1DB38A}.Debug|x86.Build.0 = Debug|x86
+		{C5716C98-889A-4F11-BF1C-C66B3E1DB38A}.Release|x86.ActiveCfg = Release|x86
+		{C5716C98-889A-4F11-BF1C-C66B3E1DB38A}.Release|x86.Build.0 = Release|x86
+		{0049BAB9-FFA6-491E-96D9-8E382351A9B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0049BAB9-FFA6-491E-96D9-8E382351A9B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{0049BAB9-FFA6-491E-96D9-8E382351A9B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{0049BAB9-FFA6-491E-96D9-8E382351A9B9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
