@@ -16,11 +16,11 @@ _This application will mimic the game Rock Paper Scissors_
 
 |Behavior|Input|Output|
 |-|-|-|
-|If Player 1 and Player 2 inputs are the same return Tie Enum|{ Choice.Rock, Choice.Rock}| Winner.Tie |
-|Test for a win based on inputs|{ Choice.Rock, Choice.Paper}| Winner.Player2 |
-|Test for a win based on inputs|{ Choice.Rock, Choice.Scissors }| Winner.Player1 |
-|Test for a win based on inputs|{ Choice.Paper, Choice.Scissors }| Winner.Player2 |
-|Test for incorrect inputs|{ Choice.Potato, 55 }| Winner.BadChoices |
+|If Player 1 and Player 2 inputs are the same return Tie Enum|{ Listof_Choices.Rock, Listof_Choices.Rock}| Listof_Results.Tie |
+|Test for a win based on inputs|{ Listof_Choices.rock, Listof_Choices.paper}| Listof_Results.Player2 |
+|Test for a win based on inputs|{ Listof_Choices.rock, Listof_Choices.scissors }| Listof_Results.Player1 |
+|Test for a win based on inputs|{ Listof_Choices.paper, Listof_Choices.scissors }| Listof_Results.Player2 |
+|Test for incorrect inputs|{ 34, 55 }| Listof_Results.badChoices |
 
 ## Known Bugs
 
