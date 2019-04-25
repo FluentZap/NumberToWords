@@ -6,7 +6,8 @@ namespace Game
   {
     rock,
     paper,
-    scissors
+    scissors,
+    random
   }
   public enum Listof_Results
   {
@@ -19,8 +20,17 @@ namespace Game
   public class RockPaperScissors
   {
 
-    public Listof_Results Play(Listof_Choices player1, Listof_Choices player2)
+    private Listof_Choices RandomChoice()
     {
+      Random r = new Random();
+      return (Listof_Choices)r.Next(0, 2);
+    }
+
+
+    public Listof_Results Play(Listof_Choices player1, Listof_Choices player2 = Listof_Choices.random)
+    {
+      if (player2 == Listof_Choices.random) player2 = RandomChoice();
+
       int choices = Enum.GetValues(typeof(Listof_Choices)).Length;
       if ((int)player1 >= 0 && (int)player1 < choices && (int)player2 >= 0 && (int)player2 < choices)
       {
