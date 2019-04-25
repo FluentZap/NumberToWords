@@ -29,7 +29,13 @@ namespace Game
         ConsoleKeyInfo choice = Console.ReadKey(true);
         if (choice.Key == ConsoleKey.D1)
         {
-          Console.WriteLine("1 Player Game!");
+          Console.WriteLine("1 Player🧟‍♂️ Game!");
+          Console.WriteLine("Player: Enter 0 for rock, 1 for paper or 2 for scissors");
+          ConsoleKeyInfo player = Console.ReadKey(true);
+          Listof_Choices playerNumber = (Listof_Choices)Char.GetNumericValue(player.KeyChar);
+          Listof_Results result = myGame.Play(playerNumber);
+          Console.WriteLine("{0} Wins! 🏄🏽‍♂️", result);
+          break;
         }
 
         if (choice.Key == ConsoleKey.D2)
